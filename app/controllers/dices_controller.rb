@@ -1,2 +1,5 @@
 class DicesController < ApplicationController
+
+
+
 end

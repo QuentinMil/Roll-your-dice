@@ -1,0 +1,4 @@
+<h1>Choose the number of faces</h1>
+<% @dices.each do |dice| %>
+  <%= button_to dice.number_of_faces, select_dice_path(dice), method: :post %>
+<% end %>
